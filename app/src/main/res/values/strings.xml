@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Stock Hawk</string>
-
     <string name="action_example">Example action</string>
-
     <string name="action_settings">Settings</string>
     <string name="action_change_units">Change Units</string>
     <string name="symbol_search">Symbol Search</string>
@@ -13,4 +11,9 @@
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
     <color name="red">#B71C1C</color>
+    <string name="stored">This stock is already saved</string>
+    <string name="network">Network not available</string>
+    <string name="fab_add">To add the stock to list</string>
+    <string name="data_graph">Stock data graph</string>
+    <string name="load_error">Not able to fetch the details,please try again later!</string>
 </resources>

@@ -17,6 +17,7 @@
         app:egLegendHeight="40dp"
         app:egShowStandardValue="true"
         android:visibility="visible"
+        android:contentDescription="@string/data_graph"
         />
 
 

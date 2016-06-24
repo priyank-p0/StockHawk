@@ -49,7 +49,7 @@ public class Stockdetail  extends AppCompatActivity {
         if (isOnline()) {
             getData(stock_symbol);
         } else
-            Toast.makeText(this, "Network not available", Toast.LENGTH_LONG);
+            Toast.makeText(this,R.string.network, Toast.LENGTH_LONG);
 
     }
 
@@ -60,7 +60,7 @@ public class Stockdetail  extends AppCompatActivity {
         okHttpClient.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Request request, IOException e) {
-                Toast.makeText(getApplicationContext(), "Not able to fetch data", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.load_error, Toast.LENGTH_LONG).show();
             }
 
             @Override
